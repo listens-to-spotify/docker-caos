@@ -13,6 +13,11 @@ git clone https://github.com/listens-to-spotify/docker-caos
 cd docker-caos
 ```
 
+## Работа в VS Code
+
+Установите расширение `Dev Containers`. После установки откройте репозиторий как проект, `VS Code` автоматически предложит запустить `docker`-контейнер.
+Если не предлагает: `Cmd + Shift + P`, в открывшейся `Command Palette` написать `Dev Containers: Reopen in Container`.
+
 ## Работа в терминале
 
 Собрать контейнер:
@@ -34,11 +39,6 @@ docker compose exec dev bash
 ```
 docker compose down
 ```
-
-## Работа в VS Code
-
-Установите расширение `Dev Containers`. После установки откройте репозиторий как проект, `VS Code` автоматически предложит запустить `docker`-контейнер.
-Если не предлагает: `Cmd + Shift + P`, в открывшейся `Command Palette` написать `Dev Containers: Reopen in Container`.
 
 ## Настройка окружения
 
