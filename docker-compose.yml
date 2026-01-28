@@ -7,6 +7,10 @@ services:
     container_name: x86lab
     tty: true
     stdin_open: true
-    working_dir: /work
+    working_dir: /root
     volumes:
       - .:/work
+      - x86lab-root:/root
+
+volumes:
+  x86lab-root:
