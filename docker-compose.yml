@@ -1,0 +1,12 @@
+services:
+  dev:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    platform: linux/amd64
+    container_name: x86lab
+    tty: true
+    stdin_open: true
+    working_dir: /work
+    volumes:
+      - .:/work
