@@ -2,7 +2,7 @@
 
 ## Устновка
 
-Убедиться, что установлен `docker` и `docker compose`. На MacOS его можно установить с помощью `Docker-Desktop`:
+Убедиться, что установлен `docker` и `docker compose`. На MacOS его можно установить, скачав [`Docker-Desktop`](https://docs.docker.com/desktop/setup/install/mac-install/):
 ```
 docker --version
 ```
@@ -42,7 +42,7 @@ docker compose down
 
 ## Настройка окружения
 
-Чтобы иметь возможность засылать задачи из контейнера, необходимо настроить контейнер в соответсвии с `SETUP.md` в `public` репозитории `hse-caos`.
+Чтобы иметь возможность засылать задачи из контейнера, необходимо настроить контейнер в соответсвии с [`SETUP.md`](https://gitlab.qcourse.ru/caos-eda/public-2025/-/blob/main/SETUP.md?ref_type=heads) в `public` репозитории [`hse-caos`](https://gitlab.qcourse.ru/caos-eda/public-2025).
 То есть создать и добавить `ssh`-ключ, проверить подключение, склонировать `private` репозиторий студента, настроить его локально и можно приступать к решению задач.
 
 ## Решение задач
