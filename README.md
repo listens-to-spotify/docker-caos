@@ -42,7 +42,7 @@ docker compose down
 
 ## Настройка окружения
 
-Чтобы иметь возможность засылать задачи из контейнера, необходимо настроить контейнер в соответсвии с [`SETUP.md`](https://gitlab.qcourse.ru/caos-eda/public-2025/-/blob/main/SETUP.md?ref_type=heads) в `public` репозитории [`hse-caos`](https://gitlab.qcourse.ru/caos-eda/public-2025).
+Чтобы иметь возможность засылать задачи из контейнера, необходимо настроить контейнер в соответствии с [`SETUP.md`](https://gitlab.qcourse.ru/caos-eda/public-2025/-/blob/main/SETUP.md?ref_type=heads) в `public` репозитории [`hse-caos`](https://gitlab.qcourse.ru/caos-eda/public-2025).
 То есть создать и добавить `ssh`-ключ, проверить подключение, склонировать `private` репозиторий студента, настроить его локально и можно приступать к решению задач.
 
 ## Решение задач
@@ -51,3 +51,6 @@ docker compose down
 ```
 make test
 ```
+
+## Contact
+telegram: [listens_to_spotify](https://t.me/listens-to-spotify)
