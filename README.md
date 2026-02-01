@@ -19,6 +19,7 @@ cd docker-caos
 Если не предлагает: `Cmd + Shift + P`, в открывшейся `Command Palette` написать `Dev Containers: Reopen in Container`.
 
 ## Работа в терминале
+Если вы работаете в `Vs Code`, то можете пропустить этот шаг.
 
 Собрать контейнер:
 ```
@@ -51,6 +52,7 @@ docker compose down
 ```
 make test
 ```
+Сдача задач происходит также, как и в `SETUP.md`.
 
 ## Contact
 telegram: [listens_to_spotify](https://t.me/listens-to-spotify)
