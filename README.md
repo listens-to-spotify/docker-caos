@@ -60,6 +60,10 @@ make test
 ```
 Сдача задач происходит также, как и в `SETUP.md`.
 
+## Использование `gdb`
+
+Чтобы использовать `gdb`, прочитайте [GDB.md](https://github.com/listens-to-spotify/docker-caos/blob/main/GDB.md)
+
 ## Contact
 
 По всем интересующим вопросам и нерешенным проблемам:
