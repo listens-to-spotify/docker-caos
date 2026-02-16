@@ -64,6 +64,13 @@ make test
 
 Чтобы использовать `gdb`, прочитайте [GDB.md](https://github.com/listens-to-spotify/docker-caos/blob/main/GDB.md)
 
+## Язык `C`
+
+Для сборки задач на языке `C` требуется наличие `clang-format`. Установить его в контейнере можно с помощью:
+```
+apt update && apt install clang-format
+```
+
 ## Contact
 
 По всем интересующим вопросам и нерешенным проблемам:
